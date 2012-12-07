@@ -1,12 +1,13 @@
 $(document).on("ready", inicio);
 function inicio () 
 {
+	//AQUI VA EL CODIGO PARA EJECUTAR MI APP
 	$("#personalizar").on("click", transicion);
 }
-function transicion ()
+function transicion()
 {
-	//Objeto Javascript: JSON
-	var cambiosHistoria = 
+	//Objecto JS/JSON
+	var cambiosCSS = 
 	{ 
 		margin: 0,
 		overflow: "hidden",
@@ -19,12 +20,12 @@ function transicion ()
 		opacity: 1,
 		width: "40%"
 	};
-	$("#historia").css(cambiosHistoria);
+	$("#historia").css(cambiosCSS);
 	$("#personalizacion").css(cambiosPerson);
 	$("#color div").on("click", cambiarColor);
 }
-function cambiarColor (datos) 
+function cambiarColor(datos)
 {
 	var col = datos.currentTarget.id;
-	$("#cochecito img").attr("src", "c"+ col +".jpg")
+	$("#cochecito img").attr("src", "c" + col + ".jpg");
 }

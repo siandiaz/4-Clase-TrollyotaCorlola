@@ -1,5 +1,5 @@
 /*
 
-Mejorandola // 2° Clase Latinoamérica
+Mejorandola // 3° Clase Latinoamérica
 
 */
