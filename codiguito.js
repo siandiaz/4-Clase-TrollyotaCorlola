@@ -12,7 +12,8 @@ function transicion()
 		margin: 0,
 		overflow: "hidden",
 		padding: 0,
-		width: 0
+		width: 0,
+		display: "none"
 	};
 	var cambiosPerson =
 	{
